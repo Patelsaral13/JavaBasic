@@ -1,0 +1,41 @@
+package arrayconcept;
+
+public class SingleArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int a[] = new int[5];
+//		
+//
+//		
+		a[0] = 10;
+		a[1] = 20;
+		a[2] = 30;
+		a[3] = 40;
+		a[4] = 50;
+
+//		System.out.println(a[1]); 
+
+//		for(int i=0;i<=4;i++)
+
+		for (int i : a)
+
+		{
+			System.out.println(i);
+
+		}
+		System.out.println("\n");
+		System.out.println("***********************");
+		String str[] = new String[3];
+
+		str[0] = "Saral";
+		str[1] = "Babulal";
+		str[2] = "Patel";
+
+		System.out.println(str.length);
+		
+
+	}
+
+}
